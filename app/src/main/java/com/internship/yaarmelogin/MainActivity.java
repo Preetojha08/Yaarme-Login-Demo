@@ -20,8 +20,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        getSupportActionBar().hide();
 
+        setTitle("Login");
+        /*
         fab_night_mode = (FloatingActionButton)findViewById(R.id.night_mode_fab);
+
         fab_night_mode.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -30,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(p);
             }
         });
+        */
 
     }
 }
